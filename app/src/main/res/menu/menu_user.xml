@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".UsersListActivity">
+
+    <item
+        android:id="@+id/action_insert_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Add Account" />
+    <item
+        android:id="@+id/action_delete_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Delte Account" />
+
+    <item
+        android:id="@+id/action_logout_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Log out" />
+</menu>
